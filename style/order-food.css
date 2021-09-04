@@ -1,0 +1,87 @@
+html {
+    font-family: sans-serif;
+    color: #8d5f34;
+}
+
+.btn {
+    height: 50px;
+    background-color: #28a745;
+    color: aliceblue;
+    border: 1px solid #28a745;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px;
+}
+
+#order-food {
+    text-align: center;
+    display: flexbox;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+#list-food {
+    color: #885e38;
+    width: 40vw;
+    border: 1px solid #b38356;
+    border-radius: 5px;
+    background-color: #f0e1d3;
+    margin: auto;
+    padding: 0 10px 0 10px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.item-lable {
+    background-color: #e9c29e;
+    padding: 0 15px 0 15px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.item-lable:hover, input[type="checkbox"]:checked+label .item-lable {
+    transition: 0.3s;
+    transform: scale(1.04);
+}
+
+input[type="checkbox"]:checked+label .item-lable {
+    background-color: #b38356;
+    color: #ffff;
+}
+
+.food-name, .food-price {
+    display: inline-table;
+    font-size: 24px;
+}
+
+.food-name {
+    text-align: left;
+    width: 68%;
+}
+
+.food-price, #invoice h1 {
+    width: 30%;
+    text-align: right;
+}
+
+#invoice {
+    margin: 20px 0 20px 0;
+    padding: 0 15px 0 15px;
+    border: 3px solid #b38356;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+#invoice h2, #invoice h1 {
+    display: inline-block;
+}
+
+#invoice h2 {
+    font-size: 26px;
+    width: 68%;
+    text-align: right;
+}
